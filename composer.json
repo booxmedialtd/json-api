@@ -1,5 +1,5 @@
 {
-  "name": "neomerx/json-api",
+  "name": "boox/ws-forks/json-api",
   "description": "Framework agnostic JSON API (jsonapi.org) implementation",
   "keywords": [
     "jsonapi.org",
