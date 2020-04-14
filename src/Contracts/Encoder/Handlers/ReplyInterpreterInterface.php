@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Encoder\Handlers;
+<?php namespace Boox\Forks\JsonApi\Contracts\Encoder\Handlers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserReplyHandlerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserReplyHandlerInterface;
 
 /**
  * Interpret parser replies and translate them to commands that build JSON document.
  *
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface ReplyInterpreterInterface extends ParserReplyHandlerInterface
 {

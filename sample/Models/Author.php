@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Samples\JsonApi\Models;
+<?php namespace Boox\Forks\Samples\JsonApi\Models;
 
 /**
  * Copyright 2015 info@neomerx.com (www.neomerx.com)
@@ -17,7 +17,7 @@
  */
 
 /**
- * @package Neomerx\Samples\JsonApi
+ * @package Boox\Forks\Samples\JsonApi
  *
  * @property int    authorId
  * @property string firstName

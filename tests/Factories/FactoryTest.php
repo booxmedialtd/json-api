@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Factories;
+<?php namespace Boox\Forks\Tests\JsonApi\Factories;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,11 +18,11 @@
 
 use \Mockery;
 use \Psr\Log\LoggerInterface;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class FactoryTest extends BaseTestCase
 {

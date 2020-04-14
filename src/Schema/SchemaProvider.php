@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Schema;
+<?php namespace Boox\Forks\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,15 +17,15 @@
  */
 
 use \InvalidArgumentException;
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

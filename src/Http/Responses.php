@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http;
+<?php namespace Boox\Forks\JsonApi\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,18 +16,18 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Http\ResponsesInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\ResponsesInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 abstract class Responses implements ResponsesInterface
 {

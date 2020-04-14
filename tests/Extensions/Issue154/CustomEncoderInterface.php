@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue154;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue154;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,11 +17,11 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 interface CustomEncoderInterface extends EncoderInterface
 {

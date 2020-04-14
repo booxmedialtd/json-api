@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\I18n;
+<?php namespace Boox\Forks\JsonApi\I18n;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\I18n\TranslatorInterface;
+use \Boox\Forks\JsonApi\Contracts\I18n\TranslatorInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class Translator implements TranslatorInterface
 {

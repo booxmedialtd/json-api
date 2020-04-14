@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue154;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue154;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 interface CustomContainerInterface extends ContainerInterface
 {

@@ -1,9 +1,9 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue169;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue169;
 
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\JsonApi\Encoder\Serialize\ArraySerializerTrait;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\JsonApi\Contracts\Factories\FactoryInterface;
+use Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\JsonApi\Encoder\Serialize\ArraySerializerTrait;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -22,7 +22,7 @@ use \Neomerx\JsonApi\Encoder\Serialize\ArraySerializerTrait;
  */
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomEncoder extends Encoder
 {

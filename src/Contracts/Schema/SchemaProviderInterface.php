@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Schema;
+<?php namespace Boox\Forks\JsonApi\Contracts\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \Iterator;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface SchemaProviderInterface
 {

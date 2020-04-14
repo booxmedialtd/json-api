@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Schema;
+<?php namespace Boox\Forks\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Factories\FactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class ResourceIdentifierContainerAdapter implements ContainerInterface
 {

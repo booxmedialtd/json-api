@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Samples\JsonApi\Schemas;
+<?php namespace Boox\Forks\Samples\JsonApi\Schemas;
 
 /**
  * Copyright 2015 info@neomerx.com (www.neomerx.com)
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Schema\SchemaProvider;
+use \Boox\Forks\JsonApi\Schema\SchemaProvider;
 
 /**
- * @package Neomerx\Samples\JsonApi
+ * @package Boox\Forks\Samples\JsonApi
  */
 class PostSchema extends SchemaProvider
 {

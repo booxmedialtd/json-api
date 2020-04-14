@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue47;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue47;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class IssueTest extends BaseTestCase
 {

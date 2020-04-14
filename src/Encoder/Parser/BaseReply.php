@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Parser;
+<?php namespace Boox\Forks\JsonApi\Encoder\Parser;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 abstract class BaseReply implements ParserReplyInterface
 {

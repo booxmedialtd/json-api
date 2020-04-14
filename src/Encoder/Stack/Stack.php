@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Stack;
+<?php namespace Boox\Forks\JsonApi\Encoder\Stack;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,14 +17,14 @@
  */
 
 use \ArrayIterator;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class Stack implements StackInterface
 {

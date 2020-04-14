@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Schema;
+<?php namespace Boox\Forks\Tests\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,16 +17,16 @@
  */
 
 use \InvalidArgumentException;
-use \Neomerx\Tests\JsonApi\Data\Post;
-use \Neomerx\JsonApi\Schema\Container;
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Tests\JsonApi\Data\AuthorSchema;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\Tests\JsonApi\Data\Post;
+use \Boox\Forks\JsonApi\Schema\Container;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\Data\AuthorSchema;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ContainerTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Codec;
+<?php namespace Boox\Forks\Tests\JsonApi\Codec;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,17 +16,17 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Http\Headers\Header;
-use \Neomerx\JsonApi\Http\Headers\MediaType;
-use \Neomerx\JsonApi\Http\Headers\AcceptHeader;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Headers\Header;
+use \Boox\Forks\JsonApi\Http\Headers\MediaType;
+use \Boox\Forks\JsonApi\Http\Headers\AcceptHeader;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CodecMatcherTest extends BaseTestCase
 {

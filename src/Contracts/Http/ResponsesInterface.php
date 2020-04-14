@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Http;
+<?php namespace Boox\Forks\JsonApi\Contracts\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface ResponsesInterface
 {

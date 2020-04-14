@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http;
+<?php namespace Boox\Forks\Tests\JsonApi\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -19,21 +19,21 @@
 use \Mockery;
 use \stdClass;
 use \Mockery\MockInterface;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\Http\Responses;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Http\Headers\MediaType;
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
-use \Neomerx\JsonApi\Http\Headers\SupportedExtensions;
-use \Neomerx\JsonApi\Contracts\Http\ResponsesInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\Http\Responses;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Headers\MediaType;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Http\Headers\SupportedExtensions;
+use \Boox\Forks\JsonApi\Contracts\Http\ResponsesInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ResponsesTest extends BaseTestCase
 {

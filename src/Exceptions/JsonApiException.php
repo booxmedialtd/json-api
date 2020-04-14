@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Exceptions;
+<?php namespace Boox\Forks\JsonApi\Exceptions;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,11 +18,11 @@
 
 use \Exception;
 use \RuntimeException;
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class JsonApiException extends RuntimeException
 {

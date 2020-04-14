@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue81;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue81;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,15 +17,15 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Tests\JsonApi\Data\Comment;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\Data\Comment;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class IssueTest extends BaseTestCase
 {

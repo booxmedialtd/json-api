@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Schema;
+<?php namespace Boox\Forks\Tests\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class SchemaProviderTest extends BaseTestCase
 {

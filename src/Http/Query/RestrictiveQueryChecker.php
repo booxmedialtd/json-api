@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Query;
+<?php namespace Boox\Forks\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,16 +16,16 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
-use \Neomerx\JsonApi\Exceptions\JsonApiException as E;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryParametersParserInterface as QP;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException as E;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryParametersParserInterface as QP;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class RestrictiveQueryChecker implements QueryCheckerInterface
 {

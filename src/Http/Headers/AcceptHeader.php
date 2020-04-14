@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,11 +18,11 @@
 
 use \Closure;
 use \InvalidArgumentException;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.StaticAccess)
  */

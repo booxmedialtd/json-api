@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue81;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue81;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use Closure;
-use Neomerx\JsonApi\Schema\Container;
+use Boox\Forks\JsonApi\Schema\Container;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class SchemaContainer extends Container
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue47;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue47;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \InvalidArgumentException;
-use \Neomerx\JsonApi\Schema\ResourceObject;
+use \Boox\Forks\JsonApi\Schema\ResourceObject;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomResourceObject extends ResourceObject
 {

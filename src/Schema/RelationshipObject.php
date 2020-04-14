@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Schema;
+<?php namespace Boox\Forks\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,11 +17,11 @@
  */
 
 use Closure;
-use Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
-use Neomerx\JsonApi\Factories\Exceptions;
+use Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use Boox\Forks\JsonApi\Factories\Exceptions;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class RelationshipObject implements RelationshipObjectInterface
 {
@@ -36,7 +36,7 @@ class RelationshipObject implements RelationshipObjectInterface
     private $data;
 
     /**
-     * @var array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface>
+     * @var array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface>
      */
     private $links;
 
@@ -63,7 +63,7 @@ class RelationshipObject implements RelationshipObjectInterface
     /**
      * @param string                                                        $name
      * @param object|array|null|Closure                                     $data
-     * @param array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface> $links
+     * @param array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface> $links
      * @param object|array|null|Closure                                     $meta
      * @param bool                                                          $isShowData
      * @param bool                                                          $isRoot

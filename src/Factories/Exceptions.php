@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Factories;
+<?php namespace Boox\Forks\JsonApi\Factories;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,7 +20,7 @@ use \LogicException;
 use \InvalidArgumentException;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class Exceptions
 {

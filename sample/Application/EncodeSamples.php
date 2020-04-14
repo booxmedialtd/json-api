@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Samples\JsonApi\Application;
+<?php namespace Boox\Forks\Samples\JsonApi\Application;
 
 /**
  * Copyright 2015 info@neomerx.com (www.neomerx.com)
@@ -17,21 +17,21 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Document\Link;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\Samples\JsonApi\Models\Post;
-use \Neomerx\Samples\JsonApi\Models\Site;
-use \Neomerx\Samples\JsonApi\Models\Author;
-use \Neomerx\Samples\JsonApi\Models\Comment;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\Samples\JsonApi\Schemas\PostSchema;
-use \Neomerx\Samples\JsonApi\Schemas\SiteSchema;
-use \Neomerx\Samples\JsonApi\Schemas\AuthorSchema;
-use \Neomerx\Samples\JsonApi\Schemas\CommentSchema;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Document\Link;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\Samples\JsonApi\Models\Post;
+use \Boox\Forks\Samples\JsonApi\Models\Site;
+use \Boox\Forks\Samples\JsonApi\Models\Author;
+use \Boox\Forks\Samples\JsonApi\Models\Comment;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\Samples\JsonApi\Schemas\PostSchema;
+use \Boox\Forks\Samples\JsonApi\Schemas\SiteSchema;
+use \Boox\Forks\Samples\JsonApi\Schemas\AuthorSchema;
+use \Boox\Forks\Samples\JsonApi\Schemas\CommentSchema;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
 
 /**
- * @package Neomerx\Samples\JsonApi
+ * @package Boox\Forks\Samples\JsonApi
  */
 class EncodeSamples
 {

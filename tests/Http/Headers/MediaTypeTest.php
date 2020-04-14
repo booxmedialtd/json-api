@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\Tests\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Http\Headers\MediaType;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Headers\MediaType;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class MediaTypeTest extends BaseTestCase
 {

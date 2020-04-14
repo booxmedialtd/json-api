@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Encoder\Stack;
+<?php namespace Boox\Forks\JsonApi\Contracts\Encoder\Stack;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface StackFrameReadOnlyInterface
 {

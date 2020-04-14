@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue49;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue49;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomFactory extends Factory
 {

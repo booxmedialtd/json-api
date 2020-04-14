@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Samples\JsonApi;
+<?php namespace Boox\Forks\Samples\JsonApi;
 
 /**
  * Copyright 2015 info@neomerx.com (www.neomerx.com)
@@ -16,16 +16,16 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Schema\Link;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\Samples\JsonApi\Application\EncodeSamples;
-use \Neomerx\JsonApi\Http\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Schema\Link;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\Samples\JsonApi\Application\EncodeSamples;
+use \Boox\Forks\JsonApi\Http\Parameters\EncodingParameters;
 
 require './vendor/autoload.php';
 
 /**
- * @package Neomerx\Samples\JsonApi
+ * @package Boox\Forks\Samples\JsonApi
  */
 class Application
 {

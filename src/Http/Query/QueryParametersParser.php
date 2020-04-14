@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Query;
+<?php namespace Boox\Forks\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,16 +18,16 @@
 
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Exceptions\JsonApiException as E;
-use \Neomerx\JsonApi\Contracts\Http\HttpFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException as E;
+use \Boox\Forks\JsonApi\Contracts\Http\HttpFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class QueryParametersParser implements QueryParametersParserInterface, LoggerAwareInterface
 {

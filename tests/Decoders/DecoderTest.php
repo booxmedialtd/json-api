@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Decoders;
+<?php namespace Boox\Forks\Tests\JsonApi\Decoders;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Decoders\RawDecoder;
-use \Neomerx\JsonApi\Decoders\ArrayDecoder;
-use \Neomerx\JsonApi\Decoders\ObjectDecoder;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Decoders\RawDecoder;
+use \Boox\Forks\JsonApi\Decoders\ArrayDecoder;
+use \Boox\Forks\JsonApi\Decoders\ObjectDecoder;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class DecoderTest extends BaseTestCase
 {

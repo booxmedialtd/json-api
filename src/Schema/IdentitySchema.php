@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Schema;
+<?php namespace Boox\Forks\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,11 +18,11 @@
 
 use \Closure;
 use \LogicException;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class IdentitySchema extends SchemaProvider
 {

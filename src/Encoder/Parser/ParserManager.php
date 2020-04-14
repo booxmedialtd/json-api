@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Parser;
+<?php namespace Boox\Forks\JsonApi\Encoder\Parser;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,12 +18,12 @@
 
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class ParserManager implements ParserManagerInterface, LoggerAwareInterface
 {

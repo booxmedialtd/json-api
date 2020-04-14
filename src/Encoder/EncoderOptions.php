@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder;
+<?php namespace Boox\Forks\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class EncoderOptions
 {

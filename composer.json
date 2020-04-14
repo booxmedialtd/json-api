@@ -36,13 +36,13 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "Neomerx\\JsonApi\\": "src/"
+      "Boox\\Forks\\JsonApi\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Neomerx\\Tests\\JsonApi\\": "tests/",
-      "Neomerx\\Samples\\JsonApi\\": "sample/"
+      "Boox\\Forks\\Tests\\JsonApi\\": "tests/",
+      "Boox\\Forks\\Samples\\JsonApi\\": "sample/"
     }
   },
   "scripts": {

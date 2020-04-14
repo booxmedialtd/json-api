@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http\Query;
+<?php namespace Boox\Forks\Tests\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,17 +17,17 @@
  */
 
 use \Mockery;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Http\Headers\MediaType;
-use \Neomerx\JsonApi\Http\Query\RestrictiveQueryChecker;
-use \Neomerx\JsonApi\Contracts\Http\HttpFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Http\Headers\RestrictiveHeadersChecker;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Headers\MediaType;
+use \Boox\Forks\JsonApi\Http\Query\RestrictiveQueryChecker;
+use \Boox\Forks\JsonApi\Contracts\Http\HttpFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Http\Headers\RestrictiveHeadersChecker;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class FactoryTest extends BaseTestCase
 {

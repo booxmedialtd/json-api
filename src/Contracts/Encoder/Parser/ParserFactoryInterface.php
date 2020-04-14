@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Encoder\Parser;
+<?php namespace Boox\Forks\JsonApi\Contracts\Encoder\Parser;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface ParserFactoryInterface
 {

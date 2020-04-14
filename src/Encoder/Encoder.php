@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder;
+<?php namespace Boox\Forks\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,17 +20,17 @@ use \Iterator;
 use \InvalidArgumentException;
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Contracts\Factories\FactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.TooManyMethods)
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)

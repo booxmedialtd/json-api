@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -19,17 +19,17 @@
 use \InvalidArgumentException;
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Exceptions\JsonApiException as E;
-use \Neomerx\JsonApi\Contracts\Http\HttpFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException as E;
+use \Boox\Forks\JsonApi\Contracts\Http\HttpFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class HeaderParametersParser implements HeaderParametersParserInterface, LoggerAwareInterface
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Factories;
+<?php namespace Boox\Forks\JsonApi\Contracts\Factories;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,20 +18,20 @@
 
 use \Psr\Log\LoggerAwareInterface as PSR3;
 
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
 
-use \Neomerx\JsonApi\Contracts\Http\HttpFactoryInterface as HttpFI;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface as SchFI;
-use \Neomerx\JsonApi\Contracts\Document\DocumentFactoryInterface as DFI;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface as StkFI;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserFactoryInterface as PrsFI;
-use \Neomerx\JsonApi\Contracts\Encoder\Handlers\HandlerFactoryInterface as HFI;
+use \Boox\Forks\JsonApi\Contracts\Http\HttpFactoryInterface as HttpFI;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface as SchFI;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentFactoryInterface as DFI;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface as StkFI;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserFactoryInterface as PrsFI;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Handlers\HandlerFactoryInterface as HFI;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface FactoryInterface extends DFI, PrsFI, StkFI, HFI, HttpFI, SchFI, PSR3
 {

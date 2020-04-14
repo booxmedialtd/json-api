@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Document;
+<?php namespace Boox\Forks\JsonApi\Document;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -19,15 +19,15 @@
 use \Closure;
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Document\Presenters\ElementPresenter;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Document\Presenters\ElementPresenter;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.StaticAccess)
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)

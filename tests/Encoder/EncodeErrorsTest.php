@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,14 +16,14 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Document\Link;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Document\Link;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class EncodeErrorsTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Exceptions;
+<?php namespace Boox\Forks\JsonApi\Exceptions;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -21,13 +21,13 @@ use \ArrayAccess;
 use \Serializable;
 use \ArrayIterator;
 use \IteratorAggregate;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
  */

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Schema;
+<?php namespace Boox\Forks\JsonApi\Contracts\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface ResourceObjectInterface
 {

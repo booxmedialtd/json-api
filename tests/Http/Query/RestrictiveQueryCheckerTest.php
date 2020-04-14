@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http\Query;
+<?php namespace Boox\Forks\Tests\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,16 +18,16 @@
 
 use \Mockery;
 use \Mockery\MockInterface;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Exceptions\JsonApiException;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class RestrictiveQueryCheckerTest extends BaseTestCase
 {

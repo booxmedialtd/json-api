@@ -1,7 +1,7 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue67;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue67;
 
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\JsonApi\Contracts\Factories\FactoryInterface;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,7 +20,7 @@ use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
  */
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomEncoder extends Encoder
 {

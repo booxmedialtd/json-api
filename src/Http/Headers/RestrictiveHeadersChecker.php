@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Exceptions\JsonApiException as E;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeadersCheckerInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException as E;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeadersCheckerInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class RestrictiveHeadersChecker implements HeadersCheckerInterface
 {

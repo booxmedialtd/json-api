@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue67;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue67;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class IssueTest extends BaseTestCase
 {

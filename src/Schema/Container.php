@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Schema;
+<?php namespace Boox\Forks\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,14 +20,14 @@ use \Closure;
 use \InvalidArgumentException;
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class Container implements ContainerInterface, LoggerAwareInterface
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http;
+<?php namespace Boox\Forks\Tests\JsonApi\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,13 +18,13 @@
 
 use \Mockery;
 use \LogicException;
-use \Neomerx\JsonApi\Http\Request;
+use \Boox\Forks\JsonApi\Http\Request;
 use \Psr\Http\Message\UriInterface;
 use \Psr\Http\Message\StreamInterface;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class RequestTest extends BaseTestCase
 {

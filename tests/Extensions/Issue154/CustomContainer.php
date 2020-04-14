@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue154;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue154;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Schema\Container;
+use \Boox\Forks\JsonApi\Schema\Container;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomContainer extends Container implements CustomContainerInterface
 {

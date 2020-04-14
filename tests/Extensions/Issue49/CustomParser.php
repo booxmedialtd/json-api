@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue49;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue49;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Encoder\Parser\Parser;
+use \Boox\Forks\JsonApi\Encoder\Parser\Parser;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CustomParser extends Parser
 {

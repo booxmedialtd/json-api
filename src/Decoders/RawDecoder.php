@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Decoders;
+<?php namespace Boox\Forks\JsonApi\Decoders;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Decoder\DecoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Decoder\DecoderInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class RawDecoder implements DecoderInterface
 {

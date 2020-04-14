@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\Tests\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,17 +17,17 @@
  */
 
 use \LogicException;
-use \Neomerx\JsonApi\Http\Request;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Request;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Exceptions\JsonApiException;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class HeaderParametersParserTest extends BaseTestCase
 {

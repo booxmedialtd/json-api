@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Neomerx\\Samples\\JsonApi\\": "./"
+            "Boox\\Forks\\Samples\\JsonApi\\": "./"
         }
     },
     "require": {

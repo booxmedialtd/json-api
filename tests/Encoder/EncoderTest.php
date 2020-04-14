@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,21 +18,21 @@
 
 use \ArrayIterator;
 use \InvalidArgumentException;
-use \Neomerx\JsonApi\Document\Link;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\Tests\JsonApi\Data\Post;
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\Tests\JsonApi\Data\Comment;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Tests\JsonApi\Data\PostSchema;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\Tests\JsonApi\Data\AuthorSchema;
-use \Neomerx\Tests\JsonApi\Data\CommentSchema;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Document\Link;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\Tests\JsonApi\Data\Post;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\Tests\JsonApi\Data\Comment;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\Data\PostSchema;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\Tests\JsonApi\Data\AuthorSchema;
+use \Boox\Forks\Tests\JsonApi\Data\CommentSchema;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class EncoderTest extends BaseTestCase
 {

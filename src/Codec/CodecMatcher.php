@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Codec;
+<?php namespace Boox\Forks\JsonApi\Codec;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,15 +17,15 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Contracts\Decoder\DecoderInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Decoder\DecoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class CodecMatcher implements CodecMatcherInterface
 {

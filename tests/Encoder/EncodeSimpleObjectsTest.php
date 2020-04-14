@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,20 +16,20 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Document\Link;
-use \Neomerx\Tests\JsonApi\Data\Site;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Tests\JsonApi\Data\Collection;
-use \Neomerx\Tests\JsonApi\Data\SiteSchema;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\Tests\JsonApi\Data\AuthorSchema;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Document\Link;
+use \Boox\Forks\Tests\JsonApi\Data\Site;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\Data\Collection;
+use \Boox\Forks\Tests\JsonApi\Data\SiteSchema;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\Tests\JsonApi\Data\AuthorSchema;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class EncodeSimpleObjectsTest extends BaseTestCase
 {

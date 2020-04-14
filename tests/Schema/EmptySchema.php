@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Schema;
+<?php namespace Boox\Forks\Tests\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,11 +17,11 @@
  */
 
 use \LogicException;
-use \Neomerx\JsonApi\Schema\SchemaProvider;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Schema\SchemaProvider;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class EmptySchema extends SchemaProvider
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Schema;
+<?php namespace Boox\Forks\JsonApi\Contracts\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,7 +17,7 @@
  */
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface RelationshipObjectInterface
 {
@@ -38,7 +38,7 @@ interface RelationshipObjectInterface
     /**
      * Get links.
      *
-     * @return array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface>
+     * @return array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface>
      */
     public function getLinks();
 

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder\Parameters;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder\Parameters;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,14 +18,14 @@
 
 use \Mockery;
 use \Mockery\MockInterface;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ParametersAnalyzerTest extends BaseTestCase
 {

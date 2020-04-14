@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Document;
+<?php namespace Boox\Forks\JsonApi\Contracts\Document;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,7 +17,7 @@
  */
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface ErrorInterface
 {
@@ -41,7 +41,7 @@ interface ErrorInterface
     /**
      * Get links that may lead to further details about this particular occurrence of the problem.
      *
-     * @return null|array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface>
+     * @return null|array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface>
      */
     public function getLinks();
 

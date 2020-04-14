@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi;
+<?php namespace Boox\Forks\Tests\JsonApi;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,12 +20,12 @@ use \Mockery;
 use \Monolog\Logger;
 use \PHPUnit\Framework\TestCase;
 use \Monolog\Handler\StreamHandler;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\JsonApi\Contracts\Encoder\EncoderInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 abstract class BaseTestCase extends TestCase
 {

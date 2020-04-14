@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Sample;
+<?php namespace Boox\Forks\Tests\JsonApi\Sample;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Samples\JsonApi\Application\EncodeSamples;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Samples\JsonApi\Application\EncodeSamples;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class EncodeTest extends BaseTestCase
 {

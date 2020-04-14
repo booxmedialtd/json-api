@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http;
+<?php namespace Boox\Forks\JsonApi\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -23,7 +23,7 @@ use \Psr\Http\Message\StreamInterface;
 use \Psr\Http\Message\ServerRequestInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)
  */

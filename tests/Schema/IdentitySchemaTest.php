@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Schema;
+<?php namespace Boox\Forks\Tests\JsonApi\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,13 +18,13 @@
 
 use \Mockery;
 use \LogicException;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Schema\IdentitySchema;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Schema\IdentitySchema;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class IdentitySchemaTest extends BaseTestCase
 {

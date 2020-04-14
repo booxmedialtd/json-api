@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Factories;
+<?php namespace Boox\Forks\JsonApi\Factories;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,54 +18,54 @@
 
 use \Closure;
 use \Psr\Log\LoggerInterface;
-use \Neomerx\JsonApi\Document\Link;
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\JsonApi\Encoder\Encoder;
-use \Neomerx\JsonApi\Schema\Container;
-use \Neomerx\JsonApi\Document\Document;
-use \Neomerx\JsonApi\Codec\CodecMatcher;
-use \Neomerx\JsonApi\Encoder\Stack\Stack;
-use \Neomerx\JsonApi\Encoder\Parser\Parser;
-use \Neomerx\JsonApi\Schema\IdentitySchema;
-use \Neomerx\JsonApi\Schema\ResourceObject;
-use \Neomerx\JsonApi\Encoder\EncoderOptions;
-use \Neomerx\JsonApi\Http\Headers\MediaType;
-use \Neomerx\JsonApi\Encoder\Stack\StackFrame;
-use \Neomerx\JsonApi\Http\Headers\AcceptHeader;
-use \Neomerx\JsonApi\Schema\RelationshipObject;
-use \Neomerx\JsonApi\Encoder\Parser\ParserReply;
-use \Neomerx\JsonApi\Encoder\Parser\ParserManager;
-use \Neomerx\JsonApi\Http\Headers\AcceptMediaType;
-use \Neomerx\JsonApi\Http\Headers\HeaderParameters;
-use \Neomerx\JsonApi\Encoder\Parser\ParserEmptyReply;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Encoder\Parameters\SortParameter;
-use \Neomerx\JsonApi\Http\Headers\SupportedExtensions;
-use \Neomerx\JsonApi\Http\Query\QueryParametersParser;
-use \Neomerx\JsonApi\Encoder\Handlers\ReplyInterpreter;
-use \Neomerx\JsonApi\Http\Query\RestrictiveQueryChecker;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Http\Headers\HeaderParametersParser;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Encoder\Parameters\EncodingParameters;
-use \Neomerx\JsonApi\Encoder\Parameters\ParametersAnalyzer;
-use \Neomerx\JsonApi\Http\Headers\RestrictiveHeadersChecker;
-use \Neomerx\JsonApi\Schema\ResourceIdentifierSchemaAdapter;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Schema\ResourceIdentifierContainerAdapter;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Document\Link;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\JsonApi\Encoder\Encoder;
+use \Boox\Forks\JsonApi\Schema\Container;
+use \Boox\Forks\JsonApi\Document\Document;
+use \Boox\Forks\JsonApi\Codec\CodecMatcher;
+use \Boox\Forks\JsonApi\Encoder\Stack\Stack;
+use \Boox\Forks\JsonApi\Encoder\Parser\Parser;
+use \Boox\Forks\JsonApi\Schema\IdentitySchema;
+use \Boox\Forks\JsonApi\Schema\ResourceObject;
+use \Boox\Forks\JsonApi\Encoder\EncoderOptions;
+use \Boox\Forks\JsonApi\Http\Headers\MediaType;
+use \Boox\Forks\JsonApi\Encoder\Stack\StackFrame;
+use \Boox\Forks\JsonApi\Http\Headers\AcceptHeader;
+use \Boox\Forks\JsonApi\Schema\RelationshipObject;
+use \Boox\Forks\JsonApi\Encoder\Parser\ParserReply;
+use \Boox\Forks\JsonApi\Encoder\Parser\ParserManager;
+use \Boox\Forks\JsonApi\Http\Headers\AcceptMediaType;
+use \Boox\Forks\JsonApi\Http\Headers\HeaderParameters;
+use \Boox\Forks\JsonApi\Encoder\Parser\ParserEmptyReply;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Encoder\Parameters\SortParameter;
+use \Boox\Forks\JsonApi\Http\Headers\SupportedExtensions;
+use \Boox\Forks\JsonApi\Http\Query\QueryParametersParser;
+use \Boox\Forks\JsonApi\Encoder\Handlers\ReplyInterpreter;
+use \Boox\Forks\JsonApi\Http\Query\RestrictiveQueryChecker;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Http\Headers\HeaderParametersParser;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Contracts\Factories\FactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Encoder\Parameters\EncodingParameters;
+use \Boox\Forks\JsonApi\Encoder\Parameters\ParametersAnalyzer;
+use \Boox\Forks\JsonApi\Http\Headers\RestrictiveHeadersChecker;
+use \Boox\Forks\JsonApi\Schema\ResourceIdentifierSchemaAdapter;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Schema\ResourceIdentifierContainerAdapter;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackReadOnlyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.TooManyMethods)
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)

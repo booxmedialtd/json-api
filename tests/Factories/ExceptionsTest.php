@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Factories;
+<?php namespace Boox\Forks\Tests\JsonApi\Factories;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,11 +16,11 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Factories\Exceptions;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ExceptionsTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Http;
+<?php namespace Boox\Forks\JsonApi\Contracts\Http;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,24 +16,24 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Codec\CodecMatcherInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeadersCheckerInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Codec\CodecMatcherInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryCheckerInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeadersCheckerInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\SortParameterInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\SupportedExtensionsInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface HttpFactoryInterface
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Handlers;
+<?php namespace Boox\Forks\JsonApi\Encoder\Handlers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,14 +18,14 @@
 
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Handlers\ReplyInterpreterInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface as Frame;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Handlers\ReplyInterpreterInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface as Frame;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class ReplyInterpreter implements ReplyInterpreterInterface, LoggerAwareInterface
 {

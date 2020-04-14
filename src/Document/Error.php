@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Document;
+<?php namespace Boox\Forks\JsonApi\Document;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.StaticAccess)
  */
@@ -34,7 +34,7 @@ class Error implements ErrorInterface
     private $idx;
 
     /**
-     * @var null|array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface>
+     * @var null|array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface>
      */
     private $links;
 

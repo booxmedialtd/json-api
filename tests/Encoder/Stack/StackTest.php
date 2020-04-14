@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder\Stack;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder\Stack;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,14 +17,14 @@
  */
 
 use \Mockery;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class StackTest extends BaseTestCase
 {

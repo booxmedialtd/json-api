@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\I18n;
+<?php namespace Boox\Forks\Tests\JsonApi\I18n;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,12 +18,12 @@
 
 use \Mockery;
 use \Mockery\Mock;
-use \Neomerx\JsonApi\I18n\Translator;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Contracts\I18n\TranslatorInterface;
+use \Boox\Forks\JsonApi\I18n\Translator;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Contracts\I18n\TranslatorInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class TranslatorTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Data;
+<?php namespace Boox\Forks\Tests\JsonApi\Data;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -21,7 +21,7 @@ use \ArrayIterator;
 use \IteratorAggregate;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class Collection implements ArrayAccess, IteratorAggregate
 {

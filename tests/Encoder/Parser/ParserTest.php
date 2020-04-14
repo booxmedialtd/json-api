@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Encoder\Parser;
+<?php namespace Boox\Forks\Tests\JsonApi\Encoder\Parser;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -18,20 +18,20 @@
 
 use \Mockery;
 use \Mockery\MockInterface;
-use \Neomerx\Tests\JsonApi\Data\Post;
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\Data\Comment;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\Tests\JsonApi\Data\PostSchema;
-use \Neomerx\Tests\JsonApi\Data\AuthorSchema;
-use \Neomerx\Tests\JsonApi\Data\CommentSchema;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
+use \Boox\Forks\Tests\JsonApi\Data\Post;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\Data\Comment;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\Tests\JsonApi\Data\PostSchema;
+use \Boox\Forks\Tests\JsonApi\Data\AuthorSchema;
+use \Boox\Forks\Tests\JsonApi\Data\CommentSchema;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ParserTest extends BaseTestCase
 {

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Http\Headers;
+<?php namespace Boox\Forks\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
-use \Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\AcceptHeaderInterface;
+use \Boox\Forks\JsonApi\Contracts\Http\Headers\HeaderParametersInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class HeaderParameters implements HeaderParametersInterface
 {

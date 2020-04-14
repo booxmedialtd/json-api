@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Http\Query;
+<?php namespace Boox\Forks\JsonApi\Contracts\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface QueryParametersParserInterface
 {

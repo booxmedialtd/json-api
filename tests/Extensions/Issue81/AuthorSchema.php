@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue81;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue81;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \LogicException;
-use \Neomerx\Tests\JsonApi\Data\AuthorSchema as ParentSchema;
+use \Boox\Forks\Tests\JsonApi\Data\AuthorSchema as ParentSchema;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class AuthorSchema extends ParentSchema
 {

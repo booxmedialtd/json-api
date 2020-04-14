@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Parameters;
+<?php namespace Boox\Forks\JsonApi\Encoder\Parameters;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,15 +16,15 @@
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
-use Neomerx\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
-use Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
+use Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use Boox\Forks\JsonApi\Contracts\Encoder\Parameters\ParametersAnalyzerInterface;
+use Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class ParametersAnalyzer implements ParametersAnalyzerInterface, LoggerAwareInterface
 {

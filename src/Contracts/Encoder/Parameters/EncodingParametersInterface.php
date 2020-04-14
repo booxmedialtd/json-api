@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Encoder\Parameters;
+<?php namespace Boox\Forks\JsonApi\Contracts\Encoder\Parameters;
 
     /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,7 +17,7 @@
  */
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface EncodingParametersInterface
 {

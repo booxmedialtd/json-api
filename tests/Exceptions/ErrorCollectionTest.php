@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Exceptions;
+<?php namespace Boox\Forks\Tests\JsonApi\Exceptions;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Document\Error;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Document\Error;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ErrorCollectionTest extends BaseTestCase
 {

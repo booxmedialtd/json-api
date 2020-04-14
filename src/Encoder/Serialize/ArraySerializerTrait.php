@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Serialize;
+<?php namespace Boox\Forks\JsonApi\Encoder\Serialize;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \Iterator;
-use \Neomerx\JsonApi\Exceptions\ErrorCollection;
-use \Neomerx\JsonApi\Contracts\Document\ErrorInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface as CI;
-use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
+use \Boox\Forks\JsonApi\Exceptions\ErrorCollection;
+use \Boox\Forks\JsonApi\Contracts\Document\ErrorInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface as CI;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
 
 /**
  * @method CI getContainer()
@@ -30,7 +30,7 @@ use \Neomerx\JsonApi\Contracts\Encoder\Parameters\EncodingParametersInterface;
  * @method array encodeErrorsToArray($errors)
  * @method array encodeMetaToArray($meta)
  *
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 trait ArraySerializerTrait
 {

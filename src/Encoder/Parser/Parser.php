@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Parser;
+<?php namespace Boox\Forks\JsonApi\Encoder\Parser;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -21,20 +21,20 @@ use \IteratorAggregate;
 use \InvalidArgumentException;
 use \Psr\Log\LoggerAwareTrait;
 use \Psr\Log\LoggerAwareInterface;
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Contracts\Schema\ContainerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Schema\SchemaProviderInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserFactoryInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Contracts\Schema\ContainerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\SchemaProviderInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserReplyInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserFactoryInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Parser\ParserManagerInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
 
 /**
  * The main purpose of the parser is to reach **every resource** that is targeted for inclusion and its
@@ -61,7 +61,7 @@ use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
  *   - The document is just a renderer which saves the input data in one of a few variations depending on settings.
  *   - When all data are parsed the document converts collected data to json.
  *
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)

@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Encoder\Stack;
+<?php namespace Boox\Forks\JsonApi\Encoder\Stack;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,15 +16,15 @@
  * limitations under the License.
  */
 
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\Contracts\Document\DocumentInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
-use \Neomerx\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\Contracts\Document\DocumentInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Encoder\Stack\StackFrameReadOnlyInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 class StackFrame implements StackFrameInterface
 {

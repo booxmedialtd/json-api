@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Schema;
+<?php namespace Boox\Forks\JsonApi\Contracts\Schema;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,10 +17,10 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface SchemaFactoryInterface
 {
@@ -64,7 +64,7 @@ interface SchemaFactoryInterface
      *
      * @param string                                                        $name
      * @param object|array|null                                             $data
-     * @param array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface> $links
+     * @param array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface> $links
      * @param mixed                                                         $meta
      * @param bool                                                          $isShowData
      * @param bool                                                          $isRoot

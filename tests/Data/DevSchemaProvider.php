@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Data;
+<?php namespace Boox\Forks\Tests\JsonApi\Data;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,12 +17,12 @@
  */
 
 use \Closure;
-use \Neomerx\JsonApi\Schema\SchemaProvider;
+use \Boox\Forks\JsonApi\Schema\SchemaProvider;
 
 /**
  * Base schema provider for testing/development purposes. It's not intended to be used in production.
  *
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 abstract class DevSchemaProvider extends SchemaProvider
 {

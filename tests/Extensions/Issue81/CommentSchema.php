@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Extensions\Issue81;
+<?php namespace Boox\Forks\Tests\JsonApi\Extensions\Issue81;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -16,12 +16,12 @@
  * limitations under the License.
  */
 
-use \Neomerx\Tests\JsonApi\Data\Author;
-use \Neomerx\Tests\JsonApi\Data\Comment;
-use \Neomerx\Tests\JsonApi\Data\CommentSchema as ParentSchema;
+use \Boox\Forks\Tests\JsonApi\Data\Author;
+use \Boox\Forks\Tests\JsonApi\Data\Comment;
+use \Boox\Forks\Tests\JsonApi\Data\CommentSchema as ParentSchema;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class CommentSchema extends ParentSchema
 {

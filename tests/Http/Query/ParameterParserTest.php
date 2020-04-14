@@ -1,4 +1,4 @@
-<?php namespace Neomerx\Tests\JsonApi\Http\Query;
+<?php namespace Boox\Forks\Tests\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,15 +17,15 @@
  */
 
 use \LogicException;
-use \Neomerx\JsonApi\Http\Request;
-use \Neomerx\JsonApi\Factories\Factory;
-use \Neomerx\Tests\JsonApi\BaseTestCase;
+use \Boox\Forks\JsonApi\Http\Request;
+use \Boox\Forks\JsonApi\Factories\Factory;
+use \Boox\Forks\Tests\JsonApi\BaseTestCase;
 use \Psr\Http\Message\ServerRequestInterface;
-use \Neomerx\JsonApi\Exceptions\JsonApiException;
-use \Neomerx\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
+use \Boox\Forks\JsonApi\Exceptions\JsonApiException;
+use \Boox\Forks\JsonApi\Contracts\Http\Query\QueryParametersParserInterface;
 
 /**
- * @package Neomerx\Tests\JsonApi
+ * @package Boox\Forks\Tests\JsonApi
  */
 class ParameterParserTest extends BaseTestCase
 {
@@ -182,7 +182,7 @@ class ParameterParserTest extends BaseTestCase
      *
      * Issue #58 @see https://github.com/neomerx/json-api/issues/58
      *
-     * @expectedException \Neomerx\JsonApi\Exceptions\JsonApiException
+     * @expectedException \Boox\Forks\JsonApi\Exceptions\JsonApiException
      */
     public function testInvalidPageParams()
     {
@@ -198,7 +198,7 @@ class ParameterParserTest extends BaseTestCase
      *
      * Issue #58 @see https://github.com/neomerx/json-api/issues/58
      *
-     * @expectedException \Neomerx\JsonApi\Exceptions\JsonApiException
+     * @expectedException \Boox\Forks\JsonApi\Exceptions\JsonApiException
      */
     public function testInvalidFilterParams()
     {
@@ -215,7 +215,7 @@ class ParameterParserTest extends BaseTestCase
      *
      * Issue #58 @see https://github.com/neomerx/json-api/issues/58
      *
-     * @expectedException \Neomerx\JsonApi\Exceptions\JsonApiException
+     * @expectedException \Boox\Forks\JsonApi\Exceptions\JsonApiException
      */
     public function testInvalidIncludeParams()
     {
@@ -232,7 +232,7 @@ class ParameterParserTest extends BaseTestCase
      *
      * Issue #58 @see https://github.com/neomerx/json-api/issues/58
      *
-     * @expectedException \Neomerx\JsonApi\Exceptions\JsonApiException
+     * @expectedException \Boox\Forks\JsonApi\Exceptions\JsonApiException
      */
     public function testInvalidSortParams()
     {
@@ -279,7 +279,7 @@ class ParameterParserTest extends BaseTestCase
     /**
      * Test miss field in sort params. Sample /posts/1?fields[posts][foo]=title
      *
-     * @expectedException \Neomerx\JsonApi\Exceptions\JsonApiException
+     * @expectedException \Boox\Forks\JsonApi\Exceptions\JsonApiException
      */
     public function testInvalidFieldSetWithMultiDimensionArray()
     {

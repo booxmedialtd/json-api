@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Document\Presenters;
+<?php namespace Boox\Forks\JsonApi\Document\Presenters;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -17,17 +17,17 @@
  */
 
 use \InvalidArgumentException;
-use \Neomerx\JsonApi\Document\Document;
-use \Neomerx\JsonApi\Factories\Exceptions;
-use \Neomerx\JsonApi\I18n\Translator as T;
-use \Neomerx\JsonApi\Contracts\Document\LinkInterface;
-use \Neomerx\JsonApi\Contracts\Schema\ResourceObjectInterface;
-use \Neomerx\JsonApi\Contracts\Schema\RelationshipObjectInterface;
+use \Boox\Forks\JsonApi\Document\Document;
+use \Boox\Forks\JsonApi\Factories\Exceptions;
+use \Boox\Forks\JsonApi\I18n\Translator as T;
+use \Boox\Forks\JsonApi\Contracts\Document\LinkInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\ResourceObjectInterface;
+use \Boox\Forks\JsonApi\Contracts\Schema\RelationshipObjectInterface;
 
 /**
  * This is an auxiliary class for Document that help presenting elements.
  *
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  *
  * @SuppressWarnings(PHPMD.StaticAccess)
  */
@@ -180,7 +180,7 @@ class ElementPresenter
 
     /**
      * @param string|null                                                        $prefix
-     * @param array<string,\Neomerx\JsonApi\Contracts\Schema\LinkInterface>|null $links
+     * @param array<string,\Boox\Forks\JsonApi\Contracts\Schema\LinkInterface>|null $links
      *
      * @return array|null|string
      */

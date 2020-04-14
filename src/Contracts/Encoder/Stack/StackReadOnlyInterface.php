@@ -1,4 +1,4 @@
-<?php namespace Neomerx\JsonApi\Contracts\Encoder\Stack;
+<?php namespace Boox\Forks\JsonApi\Contracts\Encoder\Stack;
 
 /**
  * Copyright 2015-2017 info@neomerx.com
@@ -20,7 +20,7 @@ use \Countable;
 use \IteratorAggregate;
 
 /**
- * @package Neomerx\JsonApi
+ * @package Boox\Forks\JsonApi
  */
 interface StackReadOnlyInterface extends IteratorAggregate, Countable
 {
